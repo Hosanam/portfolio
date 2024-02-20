@@ -1,0 +1,90 @@
+/* SKILLS STARTS */
+.skills {
+    padding: 30px 0;
+  }
+  
+  #skills {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  
+  /* TITLE STARTS */
+  .section2-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .section2-title h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  /* SKILLS CONTENT STARTS */
+  .skills-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .col-3 {
+    flex: 0 0 calc(33.3333% - 20px);
+    max-width: calc(33.3333% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  /* SKILL ITEM STARTS */
+  .animated-layer {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+  
+  .fade-in-down-animation {
+    transform: translateY(-20px);
+  }
+  
+  .fade-in-up-animation {
+    transform: translateY(20px);
+  }
+  
+  /* On scroll animation */
+  .wow {
+    animation: fadeIn 1s forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      visibility: hidden;
+    }
+    to {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  
+  /* SKILL ITEM ENDS */
+  
+  /* Additional styling for specific elements */
+  .skills-content .col h4 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Download CV Button */
+  .text-center mt-5 {
+    margin-top: 5px;
+  }
+  
+  .btn-outline-secondary {
+    border-color: #6c757d;
+    color: #6c757d;
+  }
+  
+  .btn-outline-secondary:hover {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
